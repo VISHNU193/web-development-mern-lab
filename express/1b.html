@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Insert Student</title>
+</head>
+<body>
+  <h1>Insert Student Record</h1>
+  <form action="/insert" method="get">
+    <label for="usn">USN:</label><br />
+    <input type="text" id="usn" name="usn" required /><br /><br />
+
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="scode">Subject Code:</label><br />
+    <input type="text" id="scode" name="scode" required /><br /><br />
+
+    <label for="marks">Marks:</label><br />
+    <input type="number" id="marks" name="marks" required min="0" /><br /><br />
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
